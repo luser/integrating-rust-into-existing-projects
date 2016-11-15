@@ -53,6 +53,7 @@ existing C APIs. TODO: write up some of that.
 
 Sebastian Dröge [gave a talk at GStreamer Conference 2016](https://gstconf.ubicast.tv/videos/corroded-pipelines-or-how-to-write-gstreamer-element-in-rust/)
 on writing a GStreamer element in Rust. He also wrote a pair of blog posts on it: [one](https://coaxion.net/blog/2016/05/writing-gstreamer-plugins-and-elements-in-rust/), [two](https://coaxion.net/blog/2016/09/writing-gstreamer-elements-in-rust-part-2-dont-panic-we-have-better-assertions-now-and-other-updates/).
+The [GStreamer plugin he wrote](https://github.com/sdroege/rsplugin) is available.
 
 TODO: write up some of the interesting bits.
 
