@@ -21,7 +21,7 @@ infrastructure we built, so our foundation seems sound.
 Firefox uses autoconf and GNU make (not automake), but with a lot of custom
 scaffolding. We elected to build our Rust code using `cargo` to make things
 work as expected for Rust developers. This has worked very well once we
-ironed out a few wrinkles. There's [some documentation](http://gecko.readthedocs.io/en/latest/build/buildsystem/rust.html)
+ironed out a few wrinkles. There's [some documentation](https://firefox-source-docs.mozilla.org/build/buildsystem/rust.html)
 on how to add new Rust code to Firefox available. Under the hood the build
 system mostly just [invokes cargo](https://dxr.mozilla.org/mozilla-central/rev/5e76768327660437bf3486554ad318e4b70276e1/config/rules.mk#935)
 to build a static library containing all the Rust code, then links that
